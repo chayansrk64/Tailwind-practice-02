@@ -1,0 +1,16 @@
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+
+.shadow{
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.fa-star-of-david{
+    color: rgba(216, 216, 47, 0.747);
+    font-size: 1.8rem;
+}
+.relative img{
+    width: 80%;
+    margin: 0 auto;
+}
