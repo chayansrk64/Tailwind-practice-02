@@ -10,10 +10,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
+         
         theme: {
           extend: {
             colors: {
               clifford: "#da373d",
+              
             },
           },
         },
@@ -31,9 +33,10 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+
     <header>
        <div class="banner">
-        <div class="container mx-auto flex gap-6 items-center justify-center pt-10 pb-10">
+        <div class="container mx-auto md:flex gap-6 items-center justify-center pt-10 pb-10">
           <div>
             <h1 class="text-7xl bold">It's good <br> tea time at The <br> Tea House</h1>
             <p class="text-lg pb-7 pt-7">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
@@ -53,7 +56,45 @@
        </div>
     </header>
 
-    <main></main>
+    <main>
+
+      <section class="container mx-auto py-12">
+        <h2 class="h2_size text-center">Our Featured Products</h2>
+        <p class="p_size text-center pb-12 pt-4 ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div class="box rounded-3xl py-6 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F6]">
+            <img class="mx-auto" src="./images/tea-1.png" alt="">
+            <div class="box-body text-center px-6">
+              <h3 class="text-2xl font-extrabold py-4">milk tea</h3>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="box py-6 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F6]">
+            <img  class="mx-auto" src="./images/tea-1.png" alt="">
+            <div class="box-body text-center px-6">
+              <h3 class="text-2xl font-extrabold py-4">milk tea</h3>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="box py-6 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F6]">
+            <img class="mx-auto" src="./images/tea-1.png" alt="">
+            <div class="box-body text-center px-6">
+              <h3 class="text-2xl font-extrabold py-4">milk tea</h3>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="box py-6 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F6]">
+            <img class="mx-auto" src="./images/tea-1.png" alt="">
+            <div class="box-body text-center px-6">
+              <h3 class="text-2xl font-extrabold py-4">milk tea</h3>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
 
     <footer></footer>
   </body>
